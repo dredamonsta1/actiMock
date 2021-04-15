@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+body {
+    /* background-image: url(activeMockImage.jpg); */
+    background-color: black;
+}
+
+.topnav {
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+.play{
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.largeImage {
+    width: 100%;
+    height: 100%;
+}
