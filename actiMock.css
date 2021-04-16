@@ -2,7 +2,8 @@
     margin: 0;
 }
 body {
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
     /* background-image: url(activeMockImage.jpg); */
     background-color: black;
 }
