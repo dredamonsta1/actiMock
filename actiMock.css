@@ -2,22 +2,25 @@
     margin: 0;
 }
 body {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     /* background-image: url(activeMockImage.jpg); */
     background-color: black;
 }
 
 .topnav {
+    display: flex;
+    margin: 15px 0 15px 0;
     font-family: 'Montserrat',
     sans-serif;
     overflow: hidden;
 }
 
-/* .active {
+.active {
+    width: 120px;
     height: 20px;
-    width: 15px;
-} */
+    z-index: 1;
+}
 
 .play{
     font-family: 'Roboto',
@@ -29,6 +32,7 @@ body {
 .largeImage {
     width: 100%;
     height: 100%;
+    z-index: 0;
 }
 
 @media only screen and (max-width: 600rem) {
