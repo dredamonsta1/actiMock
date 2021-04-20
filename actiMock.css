@@ -12,9 +12,24 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-color: black;
     background-image: url('./image//activeMockImage.jpg');
+    background-position: 0 120px;
     background-color: black;
 }
+
+nav {
+    background: var(background);
+    text-align: center;
+    width: 100%;
+}
+
+.active-logo {
+    width: 200px;
+    height: 20px;
+}
+
 
 .topnav {
     display: flex;
