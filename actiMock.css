@@ -9,9 +9,10 @@
 }
 
 body {
-    /* display: flex; */
+    margin: 0;
+    display: flex;
     flex-wrap: wrap;
-    /* background-image: url(activeMockImage.jpg); */
+    background-image: url('./image//activeMockImage.jpg');
     background-color: black;
 }
 
