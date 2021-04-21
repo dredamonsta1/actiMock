@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     /* background-color: black; */
     background-image: url('./image//activeMockImage.jpg');
-    background-position: 0 120px;
+    background-position: center 120px;
     background-size: cover;
 }
 
