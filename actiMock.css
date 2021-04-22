@@ -16,7 +16,7 @@ body {
     /* background-color: black; */
     background-image: url('./image//activeMockImage.jpg');
     background-position: center 120px;
-    background-size: cover;
+    background-size: contain;
 }
 
 nav {
@@ -30,6 +30,15 @@ nav {
 .active-logo {
     width: 200px;
     height: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.play-btn {
+    
 }
 
 .modal {
