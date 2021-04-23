@@ -32,9 +32,19 @@ nav {
     height: 20px;
 }
 
+.call-logo {
+    width: 287px;
+    height: 87px;
+    margin-top: 112px;
+    margin-left: 87px;
+}
+
 .logo {
-    width: 200px;
-    height: 200px;
+    color: #fefefe;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-size: medium;
+    font-weight: lighter;
 }
 
 .play-btn {
