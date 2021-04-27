@@ -10,11 +10,13 @@
 
 body {
     margin: 0;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     background-repeat: no-repeat;
     /* background-color: black; */
     background-image: url('./image//activeMockImage.jpg');
+    background-repeat: no-repeat;
     background-position: center 120px;
     background-size: contain;
 }
@@ -22,6 +24,8 @@ body {
 nav {
     font-family: 'Montserrat',
     sans-serif;
+    text-align: left;
+    position: fixed;
     background: var(--background);
     text-align: left;
     width: 100%;
