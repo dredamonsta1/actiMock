@@ -4,17 +4,17 @@ let btn = document.getElementById("playBtn");
 
 let span = document.getElementsByClassName("close")[0];
 
-btn.onClick = function () {
+btn.onclick = function () {
     modal.style.display = "block";
     console.log("you clicked btn");
 }
 
-span.onClick = function () {
+span.onclick = function () {
     modal.style.display = "none";
     console.log("you clicked span");
 }
 
-window.onClick = function (event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
