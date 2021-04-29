@@ -29,6 +29,19 @@ nav {
     background: var(--background);
     text-align: left;
     width: 100%;
+    /* top: 100%; */
+    left: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 
 .active-logo {
