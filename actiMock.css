@@ -44,6 +44,11 @@ nav li {
     margin-left: 1em;
 }
 
+nav a {
+    color: gray;
+    text-decoration: none;
+}
+
 .active-logo {
     width: 200px;
     height: 20px;
