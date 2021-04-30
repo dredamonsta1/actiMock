@@ -9,7 +9,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 250px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -17,8 +17,12 @@ body {
     /* background-color: black; */
     background-image: url('./image//activeMockImage.jpg');
     background-repeat: no-repeat;
-    background-position: center 120px;
-    background-size: contain;
+    background-position: center ;
+    background-size: auto;
+}
+header {
+    background: var(--background);
+    padding-bottom: 22px;
 }
 
 nav {
@@ -31,6 +35,7 @@ nav {
     width: 100%;
     /* top: 100%; */
     left: 0;
+    display: none;
 }
 
 nav ul {
@@ -53,6 +58,11 @@ nav a {
 
 nav a:hover {
     color: white;
+}
+
+.nav-toggle:checked ~ nav  {
+    display: block;
+
 }
 
 .active-logo {
