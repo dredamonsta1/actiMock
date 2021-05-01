@@ -160,9 +160,9 @@ nav a:hover {
     z-index: 0;
 } */
 
-@media only screen and (max-width: 600rem) {
+/* @media only screen and (max-width: 600rem) {
     body {background-color: black;}
-}
+} */
 
 /* @media only screen and (max-width: 768px) {
     body {background-color: darkred;}
