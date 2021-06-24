@@ -17,7 +17,7 @@ body {
     /* background-color: black; */
     background-image: url('./image//activeMockImage.jpg');
     /* background-repeat: no-repeat; */
-    /* background-position: center ; */
+    background-position: center ;
     /* background-size: auto; */
 }
 header {
@@ -73,6 +73,7 @@ nav a:hover {
     position: absolute;
     top: 0;
     left: 0;
+    margin-left: 1em;
 }
 
 .active-logo {
